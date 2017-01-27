@@ -1,0 +1,19 @@
+h1 {
+	color: #eee;
+}
+
+h2 {
+	color: #4aaaa5;
+}
+
+h3 {
+	color: #4aaaa5;
+}
+
+header {
+	background-color: #4aaaa5;
+	max-width: 250px;
+	max-height: 90px;
+	float: top;
+}
+
