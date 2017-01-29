@@ -1,45 +1,61 @@
 <!-- Basic Portfolio - Portfolio Page -->
-
 <!DOCTYPE html>
 <html lang="en-us">
 
 <head>
 	<meta charset="utf-8">
-	<title>Chris' Portfolio</title>
-	<link rel="stylesheet" type="text/css" href="assests/css/style.css">
+	<title>About Chris</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
-
 <body>
-
 	<!-- Site Header -->
-	<header>
-		<h1>Chris Manley</h1>
-		<section>
-			<a href="about.html" alt="About">About</a>
-			<a href="portfolio.html" alt="Portfolio">Portfolio</a>
-			<a href="contact.html" alt="Contact">Contact</a>
-		</section>
-
-	</header>
-				
-	<div>
-
-
-
-
-
-	<!-- Connect with Me Section -->	
-	    <section>
-		    <h3>Connect with Me</h3>
-      		<img src="assests/images/github.png" alt="GitHub">
-      		<img src="assests/images/linkedin.png" alt="LinkedIn">
-      		<img src="assests/images/stackedoverflow.png" alt="Stacked Overflow">
-		</section>
-	
+	<div class="header">
+		<div class="name">
+		Chris Manley
+		</div>
+		<div class="nav">
+			<a href="about.html">About</a> |
+			<a href="portfolio.html">Portfolio</a> |
+			<a href="contact.html">Contact</a>
+		</div>
 	</div>
+	<!-- End of Site Header -->
+
+	<div class="wrapper">
+	
+	<!-- Portfolio Section -->
+	<div class="container">
+		<div class="portfolio">
+		<h2>Portfolio</h2>
+			<hr>
+			<img id="bioimage" src="http://lorempixel.com/output/animals-q-c-200-150-6.jpg" alt="Chris Manley">
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			</p>
+		</div>
+	<!-- End of Portfolio Section-->
+
+	<!-- Connect with Me Section -->
+		
+		<div class="connect">
+		<h3>Connect with Me</h3>
+		<hr>
+      		<a href="https://github.com/ChristopherManley" target="_blank"><img class="resize1" src="assets/images/github.png" alt="GitHub"></a>
+      		<a href="https://www.linkedin.com/ in/chris-manley-88293ba" target="_blank"><img class="resize" src="assets/images/linkedin.png" alt="LinkedIn"></a>
+      		<a href="http://stackexchange.com/users/10055471/chris-manley" target="_blank"><img class="resize" src="assets/images/stackedoverflow.png" alt="Stacked Overflow"></a>
+      	</div>
+
+    </div> 
+	</div>	
+	
+	<!-- End of Connect with Me Section -->
+
 </body>
-
-
-
-
+<footer>
+	&#169;Copyright 2017 Chris Manley
+</footer>
 </html>
