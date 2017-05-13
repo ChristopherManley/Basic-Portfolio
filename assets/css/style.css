@@ -9,6 +9,7 @@ a {
 }
 
 a:link {
+
     color: #777; 
 }
 
@@ -58,6 +59,11 @@ html {
 p {
 	margin-top: 33px;
 	text-align: left;
+}
+
+p::first-line {
+	    color: #ff0000;
+    font-variant: small-caps;
 }
 
 /** sticky footer bonus **/
